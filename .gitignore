@@ -49,7 +49,6 @@ typechain-types
 *.swo
 
 # Project specific
-/backend
 /test
 /ignition
 package.json
