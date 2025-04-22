@@ -1,61 +1,59 @@
 # dependencies
-node_modules
-.pnp
-.pnp.js
+**/node_modules
+**/.pnp
+**/.pnp.js
 
 # testing
-coverage
+**/coverage
+**/test
 
 # next.js
-.next/
-out/
-build
-dist
+**/.next/
+**/out/
+**/build
+**/dist
 
 # misc
-.DS_Store
-*.pem
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+**/.DS_Store
+**/*.pem
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
 
 # local env files
-.env*.local
+**/.env*.local
 
 # vercel
-.vercel
+**/.vercel
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+**/*.tsbuildinfo
+**/next-env.d.ts
 
 # hardhat
-cache
-artifacts
-typechain
-typechain-types
+**/cache
+**/artifacts
+**/typechain
+**/typechain-types
 
 # IDE
-.idea
-.vscode
-*.swp
-*.swo
+**/.idea
+**/.vscode
+**/*.swp
+**/*.swo
+**/.vs
 
 # Project specific
-/test
-/ignition
-package.json
-package-lock.json
-update-env.js
-deploy-and-update.js
-hardhat.config.js
+**/dist
+**/build
+**/.cache
 
 # Hardhat files
 /cache
